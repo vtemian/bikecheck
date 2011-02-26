@@ -1,5 +1,4 @@
 <?php 
-	session_start();
 	function login ($user,$pass){
 		$pass=md5($pass);
 		$query="SELECT * FROM users WHERE email='".$user."' AND password='".$pass."'";
