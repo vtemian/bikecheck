@@ -6,7 +6,7 @@
 
 <body>
 
-<form method="post" action="search.php">
+<form method="post" action="adaugabike.php">
 	Serie&nbsp;&nbsp;&nbsp;&nbsp; <input name="serie" type="text" value="<?  echo $_SESSION['serie']; ?>" /><br />
 	Marca&nbsp;&nbsp; <input name="marca" type="text" /><br />
 	Culoare <input name="culoare" type="text" /><br />
