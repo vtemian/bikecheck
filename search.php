@@ -1,11 +1,13 @@
-<? session_start();
+<?php session_start();
 include("conectare.php");
+
 $_SESSION['serie']=$_POST["serie"];
 $logat=isset($_SESSION['logat']);
 
 if(trim($_POST["serie"]))
 {
 	$var=mysql_query("select id_user,furat from biciclete where serie='".$_POST["serie"]."'");
+	print mysql_error();
 $row=mysql_fetch_array($var);
 if($row)
 if($row["furat"]==true)
