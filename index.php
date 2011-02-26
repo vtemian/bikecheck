@@ -18,8 +18,8 @@
 			<h1>Verifica si inregistreaza-ti bicicleta.</h1>
 			
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-			</p>
+				Seria bicicletei tale este singurul lucru care te leaga de ea. “Make a difference” si
+				inregistreaza-ti bicicleta pe site-ul nostru protejand-o de un viitor furt !!!</p>
 			
 			<div class="search_bar">
 				<form action="index.php" method="POST">
