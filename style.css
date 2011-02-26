@@ -1,26 +1,17 @@
 
-html { height: 100%; }
 body {
 	margin: 0;
 	padding: 0;
-	font-family: Tahoma, sans-serif;
-	font-size: 76%;
-	height: 100%;
-	background: #fff url(img/bg.jpg);
+	font-family: lucida sans, tahoma, sans-serif;
+	color: #D9F584;
+	font-size: 14px;
+	background: #568D09 url(img/background.png) no-repeat center;
 }
-DIV.search_bar{
-	float:center;
-	width:715px;
-	height:88px;
-	background: url(img/cauta_bar.png);
-}
-DIV.title{
+
+.title{
 	font-size:20px;
 }
-DIV.content{
-	font-size:50px;
-	color:#fff;
-}
+
 .search{
 	width:582px;
 	height:79px;
@@ -29,12 +20,64 @@ DIV.content{
 	border:0;
 	padding-left:10px;
 	font-size:46px;
-	color:e3e3e3;
+	color: #000;
+	outline: none;
 	background: url(img/search.png);
 }
-.search_bar a{
+
+#search-btn {
 	float:right;
 	margin-top:5px;
 	margin-right:7px;
 	margin-buttom:7px;
+}
+
+#search-btn img {
+    border: 0;
+}
+
+#content, .card {
+    width: 960px;    
+}
+
+#content {
+    margin: auto;
+    overflow: hidden;
+    border-top: 5px solid #fff;
+}
+
+.card {
+    position: absolute;
+    top: 182px;
+}
+
+.search-card h1, .search-card p {
+    margin-left: 145px;
+    margin-right: 145px;
+}
+
+.search-card p {
+    line-height: 23px;
+    margin-top: 20px;
+}
+
+.search-card .search_bar {
+	width:715px;
+	height:88px;
+	margin: 35px 125px;
+	background: url(img/cauta_bar.png);
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: arial,sans-serif;
+    font-size: 34px;
+    letter-spacing: -1px; 
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+
+.logo {
+    margin-top: 12px;
 }
