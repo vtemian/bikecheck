@@ -12,7 +12,8 @@ $row=mysql_fetch_array($var);
 <body>
 
 <form method="post" action="bikeprofil.php">
-	<input name="serie" type="hidden" value="<?  $row["serie"]; ?>" /><br />
+	<label >Seria: <? echo  $row["serie"]; ?> </label>
+    <input name="serie" type="hidden" value="<? echo $row["serie"]; ?>" /><br />
 	Marca&nbsp;&nbsp; <input name="marca" type="text" value="<?  echo $row["marca"]; ?>" /><br />
 	Culoare <input name="culoare" type="text" value="<?  echo $row["culoare"]; ?>"  /><br />
 	Foto&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="photo" type="text" value="<?  echo $row["photo"]; ?>"  /><br>
