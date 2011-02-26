@@ -1,4 +1,4 @@
-<? session_start();
+<?php session_start();
 include("conectare.php");
 $var=mysql_query("select * from biciclete where serie='".$_REQUEST["serie"]."'");
 $row=mysql_fetch_array($var);

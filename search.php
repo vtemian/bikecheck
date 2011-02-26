@@ -1,4 +1,5 @@
-<?php session_start();
+<?php 
+session_start();
 include("conectare.php");
 
 $_SESSION['serie']=$_POST["serie"];
@@ -46,8 +47,9 @@ $to = $row['email'];
  {
  echo "inscriere";
  if($logat)
- {
- //inregistreaza
+ { echo $logat."s";
+ mysql_query("insert into biciclete(id_user,serie,marca,culoare,photo) values(".$_SESSION['id'].",".$_SESSION["serie"].",".$_POST["marca"].",".$_POST["culoare"].",".$_POST["photo"].")");
+ //todo
  }
  else
 { //logeazate

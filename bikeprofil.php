@@ -1,4 +1,4 @@
-<? session_start();
+<?php session_start();
 include("conectare.php");
 if(isset($_POST['check']))
 $furat=true;
