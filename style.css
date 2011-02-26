@@ -6,6 +6,7 @@ body {
 	color: #D9F584;
 	font-size: 14px;
 	background: #568D09 url(img/background.png) no-repeat center;
+	overflow: hidden;
 }
 
 .title{
@@ -48,6 +49,12 @@ body {
 
 .card {
     position: absolute;
+    left: 50%;
+    margin-left: -480px;    
+    top: -2000px;
+}
+
+#search-card {
     top: 182px;
 }
 
@@ -77,7 +84,10 @@ h1 {
     margin-bottom: 0;
 }
 
-
 .logo {
     margin-top: 12px;
+}
+
+.card-content {
+    background-color: #fff;
 }
