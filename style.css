@@ -51,17 +51,17 @@ body {
     top: 182px;
 }
 
-.search-card h1, .search-card p {
+#search-card h1, #search-card p {
     margin-left: 145px;
     margin-right: 145px;
 }
 
-.search-card p {
+#search-card p {
     line-height: 23px;
     margin-top: 20px;
 }
 
-.search-card .search_bar {
+#search-card .search_bar {
 	width:715px;
 	height:88px;
 	margin: 35px 125px;

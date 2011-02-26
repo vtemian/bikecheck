@@ -13,7 +13,7 @@
 	<div id="content">
 		<img src="img/logo.png" class="logo">
 
-		<div class="card search-card">
+		<div class="card" id="search-card">
 			<h1>Verifica si inregistreaza-ti bicicleta.</h1>
 			
 			<p>
@@ -31,6 +31,7 @@
 		</div>
 	</div>
 
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
     <script type="text/javascript" src="js/check.js"></script>
 </body>
 </html>
