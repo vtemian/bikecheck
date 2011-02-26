@@ -1,6 +1,7 @@
 <?php 
 	include_once('conectare.php');
-	include_once('functii.php');
+	include_once('functii.php');	
+	include_once('includes/login.php');
 	session_start();
 ?>
 <html>
